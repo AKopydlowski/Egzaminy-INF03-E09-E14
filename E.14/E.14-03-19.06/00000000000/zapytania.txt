@@ -1,0 +1,4 @@
+1. SELECT imie, nazwisko FROM autorzy;
+2. INSERT INTO czytelnicy VALUES (NULL,'Anna','Michalak','ANMI05');
+3. SELECT tytul FROM ksiazki ks JOIN kategorie ka on ka.id = ks.id_kategoria WHERE ka.nazwa = 'epika';
+4. SELECT tytul FROM ksiazki ks join wypozyczenia wyp on wyp.id_ksiazka=ks.id JOIN czytelnicy czyt on wyp.id_czytelnik = czyt.id WHERE wyp.id_czytelnik = 3;
