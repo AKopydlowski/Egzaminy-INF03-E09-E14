@@ -1,0 +1,3 @@
+1. SELECT cena FROM farby WHERE kolor = 'niebieski';
+2. SELECT kolor, (cena/pojemnosc) as 'Cena' FROM farby;
+3. SELECT kolor FROM farby f JOIN malowanie m on m.id_farby=f.id_farby WHERE m.id_pomieszczenia = 3;
